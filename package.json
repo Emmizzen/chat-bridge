@@ -4,7 +4,9 @@
   "description": "A chat bridge between Telegram, Messenger & IRC",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
     "showdown": "^1.8.6",
     "irc": "^0.5.2",
     "humps": "^2.0.1",
-    "Schmavery/facebook-chat-api": "*"
-  }
+    "Schmavery/facebook-chat-api": "*",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
