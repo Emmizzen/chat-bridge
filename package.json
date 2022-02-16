@@ -20,7 +20,7 @@
     "jsonfile": "^4.0.0",
     "mime-types": "^2.1.18",
     "node-telegram-bot-api": "^0.30.0",
-    "showdown": "^1.8.6",
+    "showdown": "^2.0.0",
     "irc": "^0.5.2",
     "humps": "^2.0.1",
     "Schmavery/facebook-chat-api": "*"
